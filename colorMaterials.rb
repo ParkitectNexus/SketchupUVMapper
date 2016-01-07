@@ -2,7 +2,7 @@ require 'sketchup.rb'
 
 UI.menu('Tools').add_item('Parkitect recoloring') { colorMaterials }
 
-$paletteLocation = "/Users/luuk/Downloads/sketchUp_parkitectPlugin/256palette.tga"
+$paletteLocation = "Full path to 256palette.tga"
 
 def colorMaterials()
 	SKETCHUP_CONSOLE.clear
